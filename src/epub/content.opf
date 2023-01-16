@@ -28,20 +28,34 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Democracy and Education</dc:title>
 		<meta property="file-as" refines="#title">Democracy and Education</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">An Introduction to the Philosophy of Education</dc:title>
+		<meta property="file-as" refines="#subtitle">Introduction to the Philosophy of Education, An</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Democracy and Education: An Introduction to the Philosophy of Education</dc:title>
+		<meta property="file-as" refines="#fulltitle">Democracy and Education</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Education -- Social aspects</dc:subject>
 		<dc:subject id="subject-2">Education -- Philosophy</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2009124644</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85041014</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">A critical survey of the philosophy and aims of education in a democratic society.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			<p>Life is growth. Education is therefore essential to human life as it fosters for individuals the capacity to perpetuate growth. This is the theory expressed by <a href="https://standardebooks.org/ebooks/john-dewey">John Dewey</a> in this critical review of the philosophy of education. Throughout this work Dewey traces the aims of education to their philosophic and historical bases and explains how differing aims can lead not only to students with differing levels of knowledge, but also to different morals and values. The values taught to students may or may not be explicit, but they have an effect on society. Dewey argues that certain values are more conducive to a truly democratic society and that a good educational system should be designed to encourage precisely these values. </p>
+			<p>
+			Specifically, Dewey takes issue with schools that rely heavily on testing and memorization. He argues that this type of education is a result of a duality that regards practice as in opposition and inferior to theory. Education that is dependent on strict discipline and conformity breeds a society that is conformist, low in initiative, and acquiescent to authority. A better system would allow the students some level of freedom to define their own suitable projects that teachers could guide in ways to ensure the students lean core skills such as literacy, arithmetic, and the natural sciences through practical applications. Such an interactive education would also be a way for students from different backgrounds to interact with each other. This has the positive effect of breaking down class barriers and building a more empathetic society.
+			</p>
+			<p>
+			Though it was written over one hundred years ago, many of the themes and criticisms voiced by Dewey can be found in modern-day critiques of the education. In addition to criticizing an over-reliance on testing, Dewey questions over-specialization, teaching of abstractions over applications, and the lack of time spent on developing skills that can be used outside of school. 
+			</P>
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/852</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.219789</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -49,25 +63,25 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-dewey_democracy-and-education</meta>
 		<dc:creator id="author">John Dewey</dc:creator>
 		<meta property="file-as" refines="#author">Dewey, John</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Dewey</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79060532</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Norman Rockwell</dc:contributor>
+		<meta property="file-as" refines="#artist">Rockwell, Norman</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Norman_Rockwell</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79039542</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Reed</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Reed, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Lukas Bystricky</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bystricky, Lukas</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
