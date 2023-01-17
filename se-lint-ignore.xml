@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-10.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-13.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-20.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-22.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-23.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-25.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-26.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs starting with lower case roman numerals, not part of an ordered list.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
