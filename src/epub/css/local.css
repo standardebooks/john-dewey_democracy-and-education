@@ -9,3 +9,31 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+ol.inline{
+	list-style-position: inside;
+	margin: 0;
+	padding-left: 0;
+}
+
+ol.inline > li{
+	text-indent: 1em;
+}
+
+ol.inline > li > p:first-child{
+	display: inline;
+}
+
+@supports selector(::marker){
+	ol.inline > li::marker{
+		font-variant-numeric: inherit;
+		white-space: normal;
+	}
+}
+
+#chapter-12-1 ol.inline,
+#chapter-14-2 ol.inline,
+#chapter-24-1 ol.inline,
+#chapter-7-1 ol.inline{
+	list-style-type: upper-roman;
+}
