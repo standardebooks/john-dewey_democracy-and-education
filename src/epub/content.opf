@@ -57,7 +57,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/852</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.219789</dc:source>
-		<meta property="schema:wordCount">135762</meta>
+		<meta property="schema:wordCount">135736</meta>
 		<meta property="schema:educationalLevel">38.76</meta>
 		<link href="https://en.wikipedia.org/wiki/Democracy_and_Education" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
